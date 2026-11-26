@@ -7,3 +7,8 @@
 .brand-copy small{font-size:10px;line-height:1.9;color:#a8bdbe}
 .brand-mobile{display:none}
 @media(max-width:720px){.brand-mobile{display:flex;align-items:center;gap:8px;max-width:72%;min-width:0}.brand-mobile img{height:38px;width:38px;object-fit:cover;border-radius:9px;flex:none}.brand-mobile span{min-width:0;display:block}.brand-mobile b{display:block;font-size:10px;color:#173b42}.brand-mobile small{display:block;font-size:7px;line-height:1.5;color:#72878a;max-width:190px}.topbar .crumb,.topbar .userbox{display:none}.topbar{justify-content:flex-start}}
+/* Report editing, incident dates, and formal print/export controls */
+.field input[type="datetime-local"]{width:100%;height:39px;border:1px solid #e1e9e8;background:#fbfcfc;border-radius:7px;padding:8px 10px;color:#52666a;outline:0;font-size:10px;direction:ltr;text-align:right}
+.field input[type="datetime-local"]:focus{border-color:#56b3a3;box-shadow:0 0 0 3px #57b5a31c}
+.row-actions{white-space:nowrap}.row-actions button{width:29px;height:29px;display:inline-grid;place-items:center;border:0;background:transparent;border-radius:6px}.edit{color:#168173}.edit:hover{background:#eaf6f2}.print-export{background:#147d72;color:#fff;border-color:#147d72}.print-export:hover{background:#0e6b62}
+@media(max-width:720px){.report-tools{flex-wrap:wrap}.print-export{flex:1}}
